@@ -16,6 +16,7 @@
   - Flowchart PWA on github pages & electron (it would be so cool to Python)
   - "The art of code" book (maybe)
   - Guide on building a full-stack app on my experience
+  - ANSI escape code examples page
 - Complete
   - keybaord teacher 
   - Do this with Svelte?
