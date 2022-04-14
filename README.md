@@ -25,4 +25,4 @@
   - Docs for this website
   - Get a following on github
   - Get sponsored on GitHub
-  - Maintain streak 7
+  - Maintain streak 8
