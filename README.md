@@ -20,6 +20,7 @@
   - A webpage to share colors like https://colorpeek.com/#rgb(25,175,240) but better
   - ASCII one line art repo!
   - HTML5 offline editor with integration + publish script!
+  - SQL populator from "CREATE TABLE" file
 - Complete
   - keybaord teacher 
   - Do this with Svelte?
