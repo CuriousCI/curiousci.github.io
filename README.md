@@ -1,6 +1,7 @@
 # Welcome
 
 ## TODO
+
 - Showcase
   - AVIS
   - scuolagiacomopuccini?
@@ -22,9 +23,16 @@
   - HTML5 offline editor with integration + publish script!
   - SQL populator from "CREATE TABLE" file
 - Complete
-  - keybaord teacher 
+  - keybaord teacher
   - Do this with Svelte?
   - Docs for this website
   - Get a following on github
   - Get sponsored on GitHub
   - Maintain streak 10
+
+## Slides
+
+- [Programming languages](programming-languages.pdf)
+- [Digital wellbeing](digital-wellbeing.pdf)
+- [Cookies](cookies.pdf)
+- [NAT PAT](nat-pat.pdf)
