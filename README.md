@@ -35,13 +35,26 @@
 
 - ThinkPad t420
 - Void Linux
+  - https://docs.voidlinux.org/installation/live-images/index.html
+- keyboard stickers? _(some cool ones)_
+- laptop cover / stickers ? _(idk, maybe some nature related stuff?)_
 - i3 Window Manager
+  - https://thomashunter.name/i3-configurator/
+  - https://github.com/nimishgo/i3wm-themes
+  - https://docs.i3-technologies.com/i3STUDIO/themes
+  - https://imgur.com/a/3BsTW
+  - https://github.com/ayu-theme/ayu-colors
+- lighthouse app launcher _(https://github.com/emgram769/lighthouse)_
 - Cascadia code font _(maybe use nerd fonts)_
 - Some light theme _(to read better baby)_
 
 ### Workflows
 
 - Rust _(it's not missing for sure)_
+- Git
+- Docker _(come on, it's 2022)_
+- Pictures | Music | Video _(how?)_
+- Google Docs _(even offline)_
 - NodeJS _(or deno, or bum?)_
 - Python 3.10.\* _(or grater)_
 - OFC C/C++ _(geez!)_
@@ -57,7 +70,7 @@
 
 ## Workout
 
-Just making a plan to become stronger
+Just making a plan to become stronger, faster & more flexible
 
 ### Muscles
 
