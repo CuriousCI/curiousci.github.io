@@ -44,6 +44,10 @@
   - https://docs.i3-technologies.com/i3STUDIO/themes
   - https://imgur.com/a/3BsTW
   - https://github.com/ayu-theme/ayu-colors
+  - https://www.reddit.com/r/unixporn/comments/x56te0/i3gaps_cozy_x/
+  - https://www.reddit.com/r/unixporn/comments/x4othj/i3gaps_minimalist_nixos/
+  - https://www.reddit.com/r/unixporn/comments/wz26lm/i3_light_theme_a_lot_of_tui_customized_nvim/
+  - https://www.reddit.com/r/unixporn/comments/w16fnu/i3gaps_monochrome_light/
 - lighthouse app launcher _(https://github.com/emgram769/lighthouse)_
 - Cascadia code font _(maybe use nerd fonts)_
 - Some light theme _(to read better baby)_
