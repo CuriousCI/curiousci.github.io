@@ -1,5 +1,30 @@
 # Welcome
 
+## Void Linux Rice TODO
+
+[ ] NeoVim format on save
+[ ] C/C++ support on NeoVim
+[ ] FishShell GruvBox theme
+[ ] Padding for i3 borders
+[ ] Python3 + Python3 support on NeoVim
+[ ] Work + Uni profile on Mozilla
+[ ] GruvBox Theme on ranger 
+[ ] Better custom shortcuts for i3 / NeoVim / Mozilla
+[ ] Shutdown menu + Wifi menu + Bluetooth menu
+[ ] Customize lightdm greeter _(GruvBox baby)_ 
+[ ] Install nerd font _(maybe cascadia code)_ and use it like everywhere
+[ ] Advent of code in Rust on laptop **(like finished setup workflow)**
+[ ] Should I install LateX?
+[ ] Better Icons for i3status
+[ ] Maybe GruvBox wallpaper
+[ ] Still maybe need node / deno / bun
+[ ] Smaller borders _(or not at least with screen)_
+[ ] Fix clock
+[ ] Markdown autoformat
+[ ] Obsidian maybe _(or just md?)_
+[ ] Vim cheat sheet
+[ ] Get more ideas tomorrow!
+
 ## TODO
 
 - Showcase
