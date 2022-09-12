@@ -15,7 +15,7 @@
 - [x] Install nerd font _(maybe cascadia code)_ and use it like everywhere
 - [ ] Advent of code in Rust on laptop **(like finished setup workflow)**
 - [ ] Should I install LateX?
-- [ ] Better Icons for i3status
+- [x] Better Icons for i3status
 - [ ] Maybe GruvBox wallpaper
 - [ ] Still maybe need node / deno / bun
 - [ ] Smaller borders _(or not at least with screen)_
