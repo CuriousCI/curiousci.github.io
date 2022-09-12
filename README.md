@@ -12,7 +12,7 @@
 - [ ] Better custom shortcuts for i3 / NeoVim / Mozilla
 - [ ] Shutdown menu + Wifi menu + Bluetooth menu
 - [ ] Customize lightdm greeter _(GruvBox baby)_ 
-- [ ] Install nerd font _(maybe cascadia code)_ and use it like everywhere
+- [x] Install nerd font _(maybe cascadia code)_ and use it like everywhere
 - [ ] Advent of code in Rust on laptop **(like finished setup workflow)**
 - [ ] Should I install LateX?
 - [ ] Better Icons for i3status
