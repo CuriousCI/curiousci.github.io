@@ -11,12 +11,12 @@
 - [ ] GruvBox Theme on ranger 
 - [ ] Better custom shortcuts for i3 / NeoVim / Mozilla
 - [ ] Shutdown menu + Wifi menu + Bluetooth menu
-- [ ] Customize lightdm greeter _(GruvBox baby)_ 
+- [ ] Customize lightdm greeter _(GruvBox baby, + lightdm-tiny-greeter (oh yeah!))_ 
 - [x] Install nerd font _(maybe cascadia code)_ and use it like everywhere
 - [ ] Advent of code in Rust on laptop **(like finished setup workflow)**
 - [ ] Should I install LateX?
 - [x] Better Icons for i3status
-- [ ] Maybe GruvBox wallpaper
+- [ ] Maybe GruvBox wallpaper _(or too heavy on battery)_
 - [ ] Still maybe need node / deno / bun
 - [ ] Smaller borders _(or not at least with screen)_
 - [ ] Fix clock
@@ -75,12 +75,12 @@
   - https://www.reddit.com/r/unixporn/comments/x4othj/i3gaps_minimalist_nixos/
   - https://www.reddit.com/r/unixporn/comments/wz26lm/i3_light_theme_a_lot_of_tui_customized_nvim/
   - https://www.reddit.com/r/unixporn/comments/w16fnu/i3gaps_monochrome_light/
-- lighthouse app launcher _(https://github.com/emgram769/lighthouse)_
+- dmenu app launcher _(https://github.com/emgram769/lighthouse)_
+- lightdm-tiny-greeter
+- xorg
+- dbus
 - Cascadia code font _(maybe use nerd fonts)_
-- Some light theme _(to read better baby)_
-
-### Workflows
-
+- GruvBox _(to read better baby)_
 - Rust _(it's not missing for sure)_
 - Git
 - Docker _(come on, it's 2022)_
