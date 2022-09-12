@@ -5,7 +5,7 @@
 - [ ] NeoVim format on save
 - [ ] C/C++ support on NeoVim
 - [x] FishShell GruvBox theme
-- [ ] Padding for i3 borders
+- [x] Padding for i3 borders _(just configured alacritty)_
 - [x] Python3 + Python3 support on NeoVim
 - [ ] Work + Uni profile on Mozilla
 - [ ] GruvBox Theme on ranger 
