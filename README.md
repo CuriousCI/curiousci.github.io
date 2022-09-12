@@ -4,9 +4,9 @@
 
 [ ] NeoVim format on save
 [ ] C/C++ support on NeoVim
-[ ] FishShell GruvBox theme
+[x] FishShell GruvBox theme
 [ ] Padding for i3 borders
-[ ] Python3 + Python3 support on NeoVim
+[x] Python3 + Python3 support on NeoVim
 [ ] Work + Uni profile on Mozilla
 [ ] GruvBox Theme on ranger 
 [ ] Better custom shortcuts for i3 / NeoVim / Mozilla
@@ -24,6 +24,8 @@
 [ ] Obsidian maybe _(or just md?)_
 [ ] Vim cheat sheet
 [ ] Get more ideas tomorrow!
+[x] git authentication
+
 
 ## TODO
 
