@@ -6,24 +6,24 @@
 - [ ] C/C++ support on NeoVim
 - [x] FishShell GruvBox theme
 - [x] Padding for i3 borders _(just configured alacritty)_
-- [x] Python3 + Python3 support on NeoVim
+- [x] Python3 + Python3 support on NeoVim _(format on save)_
 - [ ] Work + Uni profile on Mozilla
 - [ ] GruvBox Theme on ranger 
 - [ ] Better custom shortcuts for i3 / NeoVim / Mozilla
-- [ ] Shutdown menu + Wifi menu + Bluetooth menu
+- [ ] Shutdown menu + Wifi menu _(network-manager)_ + Bluetooth menu
 - [x] Customize lightdm greeter _(GruvBox baby, + lightdm-mini-greeter (oh yeah!))_ 
 - [x] Install nerd font _(maybe cascadia code)_ and use it like everywhere
-- [ ] Advent of code in Rust on laptop **(like finished setup workflow)**
-- [ ] Should I install LateX?
+- [x] Advent of code in Rust on laptop **(like finished setup workflow)**
+- [ ] Should I install LateX? _(or just use overleaf?)_
 - [x] Better Icons for i3status
-- [ ] Maybe GruvBox wallpaper _(or too heavy on battery)_
+- [x] Maybe GruvBox wallpaper _(NO WALLPAPER! Too heavy on battery!)_
 - [ ] Still maybe need node / deno / bun
-- [ ] Smaller borders _(or not at least with screen)_
+- [x] Smaller borders _(or not at least with screen)_
 - [ ] Fix clock
 - [ ] Markdown autoformat
 - [ ] Obsidian maybe _(or just md?)_
 - [ ] Vim cheat sheet
-- [ ] Get more ideas tomorrow!
+- [x] Get more ideas tomorrow!
 - [x] git authentication
 
 
