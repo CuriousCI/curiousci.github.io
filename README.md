@@ -2,7 +2,7 @@
 
 ## Void Linux Rice TODO
 
-- [ ] NeoVim format on save
+- [x] NeoVim format on save
 - [ ] C/C++ support on NeoVim
 - [x] FishShell GruvBox theme
 - [x] Padding for i3 borders _(just configured alacritty)_
@@ -11,7 +11,7 @@
 - [ ] GruvBox Theme on ranger 
 - [ ] Better custom shortcuts for i3 / NeoVim / Mozilla
 - [ ] Shutdown menu + Wifi menu + Bluetooth menu
-- [ ] Customize lightdm greeter _(GruvBox baby, + lightdm-tiny-greeter (oh yeah!))_ 
+- [x] Customize lightdm greeter _(GruvBox baby, + lightdm-mini-greeter (oh yeah!))_ 
 - [x] Install nerd font _(maybe cascadia code)_ and use it like everywhere
 - [ ] Advent of code in Rust on laptop **(like finished setup workflow)**
 - [ ] Should I install LateX?
