@@ -3,7 +3,7 @@
 ## Void Linux Rice TODO
 
 - [x] NeoVim format on save
-- [ ] C/C++ support on NeoVim
+- [x] C/C++ support on NeoVim _(clangd extension for nvim)_
 - [x] FishShell GruvBox theme
 - [x] Padding for i3 borders _(just configured alacritty)_
 - [x] Python3 + Python3 support on NeoVim _(format on save)_
@@ -22,7 +22,7 @@
 - [ ] Fix clock
 - [ ] Markdown autoformat
 - [ ] Obsidian maybe _(or just md?)_
-- [ ] Vim cheat sheet
+- [x] Vim cheat sheet
 - [x] Get more ideas tomorrow!
 - [x] git authentication
 
