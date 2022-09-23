@@ -10,7 +10,7 @@
 - [ ] Work + Uni profile on Mozilla
 - [x] GruvBox Theme on ranger _(and image preview, need pdf preview!)_
 - [x] Better custom shortcuts for i3 / NeoVim / Mozilla
-- [ ] Shutdown menu + Wifi menu _(network-manager)_ + Bluetooth menu
+- [x] Shutdown menu + Wifi menu _(network-manager)_ + Bluetooth menu _**(just added some network connection instructions with wpa_cli)**_
 - [x] Customize lightdm greeter _(GruvBox baby, + lightdm-mini-greeter (oh yeah!))_ 
 - [x] Install nerd font _(maybe cascadia code)_ and use it like everywhere
 - [x] Advent of code in Rust on laptop **(like finished setup workflow)**
