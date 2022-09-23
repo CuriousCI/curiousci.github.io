@@ -8,8 +8,8 @@
 - [x] Padding for i3 borders _(just configured alacritty)_
 - [x] Python3 + Python3 support on NeoVim _(format on save)_
 - [ ] Work + Uni profile on Mozilla
-- [ ] GruvBox Theme on ranger 
-- [ ] Better custom shortcuts for i3 / NeoVim / Mozilla
+- [x] GruvBox Theme on ranger _(and image preview, need pdf preview!)_
+- [x] Better custom shortcuts for i3 / NeoVim / Mozilla
 - [ ] Shutdown menu + Wifi menu _(network-manager)_ + Bluetooth menu
 - [x] Customize lightdm greeter _(GruvBox baby, + lightdm-mini-greeter (oh yeah!))_ 
 - [x] Install nerd font _(maybe cascadia code)_ and use it like everywhere
@@ -19,7 +19,7 @@
 - [x] Maybe GruvBox wallpaper _(NO WALLPAPER! Too heavy on battery!)_
 - [ ] Still maybe need node / deno / bun
 - [x] Smaller borders _(or not at least with screen)_
-- [ ] Fix clock
+- [x] Fix clock
 - [ ] Markdown autoformat
 - [ ] Obsidian maybe _(or just md?)_
 - [x] Vim cheat sheet
