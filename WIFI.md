@@ -6,4 +6,6 @@
 $number
 > set\_network $number ssid "SSID"
 > set\_network $number psk "Password"
-> enable\_netowrk $number
+> disable\_network $current\_network
+> enable\_network $number
+
