@@ -1,5 +1,32 @@
 # Welcome
 
+## Void Linux Rice TODO
+
+- [x] NeoVim format on save
+- [x] C/C++ support on NeoVim _(clangd extension for nvim)_
+- [x] FishShell GruvBox theme
+- [x] Padding for i3 borders _(just configured alacritty)_
+- [x] Python3 + Python3 support on NeoVim _(format on save)_
+- [ ] Work + Uni profile on Mozilla
+- [x] GruvBox Theme on ranger _(and image preview, need pdf preview!)_
+- [x] Better custom shortcuts for i3 / NeoVim / Mozilla
+- [x] Shutdown menu + Wifi menu _(network-manager)_ + Bluetooth menu _**(just added some network connection instructions with wpa_cli)**_
+- [x] Customize lightdm greeter _(GruvBox baby, + lightdm-mini-greeter (oh yeah!))_ 
+- [x] Install nerd font _(maybe cascadia code)_ and use it like everywhere
+- [x] Advent of code in Rust on laptop **(like finished setup workflow)**
+- [ ] Should I install LateX? _(or just use overleaf?)_
+- [x] Better Icons for i3status
+- [x] Maybe GruvBox wallpaper _(NO WALLPAPER! Too heavy on battery!)_
+- [ ] Still maybe need node / deno / bun
+- [x] Smaller borders _(or not at least with screen)_
+- [x] Fix clock
+- [ ] Markdown autoformat
+- [ ] Obsidian maybe _(or just md?)_
+- [x] Vim cheat sheet
+- [x] Get more ideas tomorrow!
+- [x] git authentication
+
+
 ## TODO
 
 - Showcase
@@ -48,12 +75,12 @@
   - https://www.reddit.com/r/unixporn/comments/x4othj/i3gaps_minimalist_nixos/
   - https://www.reddit.com/r/unixporn/comments/wz26lm/i3_light_theme_a_lot_of_tui_customized_nvim/
   - https://www.reddit.com/r/unixporn/comments/w16fnu/i3gaps_monochrome_light/
-- lighthouse app launcher _(https://github.com/emgram769/lighthouse)_
+- dmenu app launcher _(https://github.com/emgram769/lighthouse)_
+- lightdm-tiny-greeter
+- xorg
+- dbus
 - Cascadia code font _(maybe use nerd fonts)_
-- Some light theme _(to read better baby)_
-
-### Workflows
-
+- GruvBox _(to read better baby)_
 - Rust _(it's not missing for sure)_
 - Git
 - Docker _(come on, it's 2022)_
