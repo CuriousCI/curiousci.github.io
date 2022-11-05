@@ -1,5 +1,30 @@
 # Welcome
 
+## Cool profile ideas
+
+- https://openprocessing.org/sketch/748916
+- https://openprocessing.org/sketch/385808
+- https://openprocessing.org/sketch/313654
+- https://openprocessing.org/sketch/1705666
+- https://openprocessing.org/sketch/1422800
+- https://openprocessing.org/sketch/1451885
+- https://openprocessing.org/sketch/1628064
+- https://openprocessing.org/sketch/1461298
+- https://openprocessing.org/sketch/1574270
+- https://openprocessing.org/sketch/150834
+- https://openprocessing.org/sketch/1441202
+- https://openprocessing.org/sketch/1415435
+- https://openprocessing.org/sketch/1685248
+- https://openprocessing.org/sketch/1715681
+- https://openprocessing.org/sketch/1694526
+- https://openprocessing.org/sketch/1638178
+- https://openprocessing.org/sketch/1592977
+- https://openprocessing.org/sketch/1558880
+- https://openprocessing.org/sketch/1514858
+- https://openprocessing.org/sketch/1677048
+- https://openprocessing.org/sketch/1631540
+
+
 ## Void Linux Rice TODO
 
 - [x] NeoVim format on save
