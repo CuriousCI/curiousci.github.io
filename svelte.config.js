@@ -9,7 +9,7 @@ const config = {
 
     kit: {
         trailingSlash: 'always',
-        adapter: adapter({ pages: 'docs', assets: 'docs', fallback: 'index.html' })
+        adapter: adapter({ pages: 'docs', assets: 'docs', fallback: null, strict: false })
     }
 };
 
