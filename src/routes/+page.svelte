@@ -1,1 +1,1 @@
-<h1>Ionut Cicio</h1>
+<h1 class="text-9xl text-dfg">Ionuţ Cicio</h1>

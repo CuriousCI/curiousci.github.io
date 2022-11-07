@@ -1,6 +1,6 @@
-import p5, { Vector } from 'p5';
+import p5 from 'p5';
 
-export default new p5((sketch) => {
+export default function sketch(sketch: p5) {
     sketch.setup = () => {
         sketch.createCanvas(200, 200)
     }
@@ -9,8 +9,9 @@ export default new p5((sketch) => {
 
 
     }
+}
 
-});
+// export default new p5((sketch) => {
 
 // let colors = "cdf2ba-77af5b-76a855-c4e878-e8f78a-dded63-f1f4e6".split("-").map(a => "#" + a)
 //
