@@ -3,6 +3,7 @@
     import { onMount } from "svelte";
 
     // https://github.com/tonyketcham/p5-svelte/blob/main/src/lib/P5.svelte
+    export const prerender = true
 
     onMount(async () => {
         const library = await import("p5");
