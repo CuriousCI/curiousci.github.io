@@ -1,15 +1,15 @@
-import p5 from 'p5';
-
-export default function sketch(sketch: p5) {
-    sketch.setup = () => {
-        sketch.createCanvas(200, 200)
-    }
-
-    sketch.draw = () => {
-
-
-    }
-}
+// import p5 from 'p5';
+//
+// export default function sketch(sketch: p5) {
+//     sketch.setup = () => {
+//         sketch.createCanvas(200, 200)
+//     }
+//
+//     sketch.draw = () => {
+//
+//
+//     }
+// }
 
 // export default new p5((sketch) => {
 
