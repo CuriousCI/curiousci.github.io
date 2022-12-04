@@ -8,8 +8,8 @@ const config = {
     preprocess: preprocess({ postcss: false }),
 
     kit: {
-        paths: { base: 'docs' },
-        adapter: adapter({ pages: 'docs', assets: 'docs', fallback: null }),
+        paths: { base: '/docs' },
+        adapter: adapter({ pages: 'docs', assets: 'docs' }),
     }
 };
 
