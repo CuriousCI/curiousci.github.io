@@ -5,8 +5,7 @@ import preprocess from 'svelte-preprocess';
 const config = {
     // Consult https://github.com/sveltejs/svelte-preprocess
     // for more information about preprocessors
-    preprocess: preprocess({ postcss: false }),
-
+    preprocess: preprocess({ postcss: true }),
     kit: {
         adapter: adapter({ pages: 'docs', assets: 'docs' }),
     }
