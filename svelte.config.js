@@ -8,7 +8,7 @@ const config = {
     preprocess: preprocess({ postcss: false }),
 
     kit: {
-        adapter: adapter({ pages: 'docs', assets: 'docs', fallback: '/index.html' })
+        adapter: adapter({ pages: 'docs', assets: 'docs' })
     }
 };
 
