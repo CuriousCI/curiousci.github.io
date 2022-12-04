@@ -8,70 +8,95 @@ export default function sketch(sketch: p5) {
     let noise2D: any,
         noise3D: any,
         paper: Graphics,
-        waves: Wave[];
+        waves: Wave[],
+        frame: number = 0
 
     sketch.windowResized = () => sketch.resizeCanvas(sketch.windowWidth, sketch.windowHeight);
 
     sketch.setup = () => {
-        sketch.createCanvas(sketch.windowWidth, sketch.windowHeight);
-        sketch.colorMode(sketch.HSB, 360, 100, 100, 100);
-        sketch.randomSeed(0);
-        sketch.pixelDensity(1);
-        sketch.angleMode(sketch.DEGREES);
+        sketch.createCanvas(sketch.windowWidth, sketch.windowHeight)
+        sketch.colorMode(sketch.HSB, 360, 100, 100, 100)
+        sketch.randomSeed(0)
+        sketch.pixelDensity(1)
+        sketch.angleMode(sketch.DEGREES)
+        sketch.noStroke()
+        sketch.frameRate(30)
 
-        noise2D = createNoise2D();
-        noise3D = createNoise3D();
+        noise2D = createNoise2D()
+        noise3D = createNoise3D()
 
-        paper = sketch.createGraphics(sketch.width, sketch.height);
-        drawTexture(paper, 0.01, true);
-        drawTexture(paper, 0.01, false);
+        paper = sketch.createGraphics(sketch.width, sketch.height)
+
+        drawTexture(paper, 0.01, true)
+        drawTexture(paper, 0.01, false)
+
+        waves = createWaves(sketch.height / 20, 300)
     }
 
-
     sketch.draw = () => {
-        sketch.background(0);
+        frame++
+        sketch.background(0)
 
-        let yStep = sketch.height / 25;
-        let xStep = 250;
+        for (let wave of waves) {
+            sketch.drawingContext.filter = `blur(${sketch.int(sketch.map(sketch.abs(wave.y - (sketch.height * 3) / 5), 0, sketch.height / 2 + wave.yStep, 0, 20))}px)`;
 
-        for (let y = -yStep; y < sketch.height + yStep; y += yStep / 2) {
-            sketch.drawingContext.filter = `blur(${sketch.int(sketch.map(sketch.abs(y - (sketch.height * 3) / 5), 0, sketch.height / 2 + yStep, 0, 20))}px)`;
 
             sketch.push();
-            sketch.translate(0, y);
+            sketch.translate(0, wave.y + sketch.sin(frame));
 
-            let n = sketch.map(noise2D(y / 50, sketch.frameCount / 300), -1, 1, 0, 1);
-            let gradient =
-                sketch.random() > 0.5
-                    ? sketch.drawingContext.createLinearGradient(0, -yStep * 2, sketch.width, yStep * 2)
-                    : sketch.drawingContext.createLinearGradient(sketch.width, -yStep * 2, 0, yStep * 2);
-
-            gradient.addColorStop(0, colors[0]);
-            gradient.addColorStop(n, colors[2]);
-            gradient.addColorStop(1, colors[1]);
-
-            sketch.drawingContext.fillStyle = gradient;
-            sketch.noStroke();
-
+            sketch.drawingContext.fillStyle = wave.gradient
             sketch.beginShape();
-            let y2;
-            for (let x = -xStep; x < sketch.width + xStep; x += xStep) {
-                y2 = noise3D(x / 400, y / 50, sketch.frameCount / 200) * yStep * 4;
-                sketch.curveVertex(x, y2);
+            let i = -wave.xStep
+            for (let x of wave.x) {
+                sketch.curveVertex(i, x * sketch.sin(frame + x * 10))
+                i += wave.xStep
             }
-            sketch.vertex(sketch.width + xStep, y2 || 0);
-            sketch.vertex(0 - xStep, sketch.height + yStep);
+            sketch.vertex(sketch.width + wave.xStep, 0);
+            sketch.vertex(-wave.xStep, sketch.height + wave.yStep);
             sketch.endShape(sketch.CLOSE);
             sketch.pop();
         }
-        sketch.drawingContext.globalAlpha = 1 / 2;
+
+        // sketch.drawingContext.globalAlpha = 1 / 2;
         sketch.drawingContext.filter = `blur(${0}px)`;
 
         // @ts-ignore
         sketch.image(paper, 0, 0);
-        sketch.drawingContext.globalAlpha = 1;
+        // sketch.drawingContext.globalAlpha = 1;
+    }
 
-        sketch.noLoop();
+    function createWaves(yStep: number, xStep: number): Wave[] {
+        let waves: Wave[] = []
+
+        for (let y = -yStep; y < sketch.height + yStep; y += yStep / 2) {
+
+            let n = sketch.map(noise2D(y / 50, sketch.frameCount / 300), -1, 1, 0, 1)
+            let gradient =
+                sketch.random() > 0.5
+                    ? sketch.drawingContext.createLinearGradient(0, -yStep * 2, sketch.width, yStep * 2)
+                    : sketch.drawingContext.createLinearGradient(sketch.width, -yStep * 2, 0, yStep * 2);
+            gradient.addColorStop(0, colors[0]);
+            gradient.addColorStop(n, colors[2]);
+            gradient.addColorStop(1, colors[1]);
+
+            let xs: number[] = []
+            for (let x = -xStep; x < sketch.width + xStep; x += xStep) {
+                xs.push(noise3D(x / 400, y / 50, sketch.frameCount / 200) * yStep * 4)
+            }
+
+            let wave: Wave = {
+                y,
+                x: xs,
+                yStep,
+                xStep,
+                gradient: gradient,
+                step: 0,
+                height: 0,
+            }
+
+            waves.push(wave)
+        }
+        return waves
     }
 
     function drawTexture(target: any, prob: any, bool: boolean) {
@@ -116,7 +141,10 @@ export default function sketch(sketch: p5) {
 
 interface Wave {
     y: number,
-    gradient: number,
+    x: number[],
+    yStep: number,
+    xStep: number,
+    gradient: any,
     step: number,
     height: number,
 }
