@@ -3,7 +3,7 @@
     let showHome: boolean = true;
 </script>
 
-<div class="absolute">
+<div class="relative">
     {#if showHome}
         <h1 class="text-8xl sm:text-9xl text-dfg z-50 text-center">
             Ionuţ Cicio
@@ -33,7 +33,12 @@
             </button>
         </div>
     {:else}
-        <!-- <h1 class="text-8xl sm:text-9xl text-dfg z-50 text-center">PROJECTS</h1> -->
+        <button
+            class="absolute  top-0 right-4"
+            on:click={() => (showHome = true)}
+        >
+            <img src="home.svg" alt="Home" class="w-14" />
+        </button>
         <Projects />
     {/if}
 </div>
