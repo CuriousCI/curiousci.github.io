@@ -31,8 +31,8 @@ export default function sketch(sketch: p5) {
         sketch.noStroke()
 
         sand = sketch.createGraphics(sketch.width, sketch.height)
-        drawTexture(sand, 0.01, true)
-        drawTexture(sand, 0.01, false)
+        drawTexture(sand, 0.004, true)
+        drawTexture(sand, 0.004, false)
 
         peak = sketch.height / 5
         length = 1000
@@ -102,7 +102,7 @@ export default function sketch(sketch: p5) {
                     (sketch.width / sketch.map(density, 0, 1, sketch.width / 50, sketch.width / 10000)) * sketch.random(1, 1.5);
 
             let angle = (sketch.int(sketch.random(8)) * 360) / 8;
-            let r = d * sketch.sqrt(2);
+            let r = d * 1.4
             let g = target.drawingContext.createLinearGradient(
                 sketch.cos(angle) * r,
                 sketch.sin(angle) * r,

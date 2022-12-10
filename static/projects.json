@@ -2,7 +2,7 @@
     {
         "name": "AVIS Civitavecchia",
         "description": "Sito web per la sezione dell'AVIS di Civitavecchia 'Mario Villotti'",
-        "assets": [],
+        "assets": ["avis.jpg"],
         "website": "https://aviscivitavecchia.it",
         "github": "",
         "tech": ["docker", "php", "gravcms", "nginx", "certbot", "yaml", "markdown", "aws"]
@@ -10,7 +10,7 @@
     {
         "name": "World Zen",
         "description": "Applicazione web per l'associazione sportiva World Zen",
-        "assets": [],
+        "assets": ["world-zen.png"],
         "website": "https://dizionario-taekwondo.web.app/home",
         "github": "",
         "tech": ["angular", "firebase", "material", "typescript"]
