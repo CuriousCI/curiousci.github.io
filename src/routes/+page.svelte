@@ -1,9 +1,13 @@
 <script lang="ts">
     import Projects from "$lib/Projects.svelte";
-    let home: boolean = true;
+    import Store from "$lib/Store.svelte";
+    let home: boolean = true,
+        store: boolean = false;
 </script>
 
-{#if home}
+{#if store}
+    <Store />
+{:else if home}
     <div class="relative">
         <h1 class="text-8xl sm:text-9xl text-dfg text-center">Ionuţ Cicio</h1>
         <div class="flex items-center justify-between flex-col md:flex-row">
@@ -22,6 +26,9 @@
                 >
                     <img src="resume.svg" alt="Resume" class="w-14" />
                 </a>
+                <button on:click={() => (store = true)}>
+                    <img src="icon.svg" alt="Store" class="w-14" />
+                </button>
             </div>
             <button on:click={() => (home = false)}>
                 <span
