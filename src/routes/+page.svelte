@@ -40,10 +40,7 @@
                 <a href="https://www.linkedin.com/in/ionut-cicio-395541211/">
                     <img src="linkedin.svg" alt="LinkedIn" class="w-12" />
                 </a>
-                <a
-                    href="https://en.wikipedia.org/wiki/Work_in_process"
-                    target="_blank"
-                >
+                <a href="./ionut-cicio-cv.pdf" target="_blank">
                     <img src="resume.svg" alt="Resume" class="w-14" />
                 </a>
                 <!-- <button on:click={() => (store = true)}> -->
