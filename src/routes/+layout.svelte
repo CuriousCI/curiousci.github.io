@@ -1,6 +1,6 @@
 <script lang="ts">
     import "../app.css";
-    import sketch from "$lib/sketch/waves";
+    import sketch from "$lib/sketch/fields";
     import P5 from "p5-svelte";
 </script>
 
