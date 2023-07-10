@@ -99,7 +99,9 @@ export default function sketch(sketch: p5) {
                 sketch.fill(125 * avgNoise, 50 * avgNoise)
             }
             sketch.noStroke()
-            sketch.circle(particle.x, particle.y, vecNoise.y * 20)
+            sketch.circle(particle.x, particle.y, sketch.map(avgNoise, 0, 2, 10, 20))
+            // sketch.circle(particle.x, particle.y, sketch.sin(avgNoise * sketch.PI) * 20)
+            // sketch.circle(particle.x, particle.y, vecNoise.y * 20)
         }
     }
 }
